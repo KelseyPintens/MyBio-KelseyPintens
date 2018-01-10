@@ -20,27 +20,28 @@ ul {
 
 body {
     line-height: 1.6;
-    background: tomato;
+    background: #f8f8f8;
     color: #606060;
 }
 
 .creative {
     color: #71cbd3;
     font-family: Helvetica;
-    font-size: 5em;
+    font-size: 2em;
 }
 
 .designer {
     color: #606060;
     font-family: Helvetica;
     font-weight: lighter;
+    font-size: 1em
 }
 
 .main-nav li a {
     color: #606060;
     font-family: Helvetica;
     font-weight: lighter;
-    font-size: 5em
+    font-size: 1em
 }
 
 
