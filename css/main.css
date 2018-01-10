@@ -37,7 +37,7 @@ body {
     font-size: .5em
 }
 
-.main-nav a {
+.main-nav li a {
     color: #606060;
     font-family: Helvetica;
     font-weight: lighter;
