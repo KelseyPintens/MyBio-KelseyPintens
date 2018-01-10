@@ -26,5 +26,11 @@ body {
 .creative {
     color: #baedff;
     font-family: Helvetica;
-    font-size: 3em;
+    font-size: 2.5em;
+}
+
+.designer {
+    color: #3a3a3a;
+    font-family: Helvetica;
+    font-size: 1em
 }
