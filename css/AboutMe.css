@@ -65,9 +65,10 @@ li a:hover {
     color: #71cbd3;
     letter-spacing: .25em;
     font-size: 35px;
-    text-align: center;
-    margin: auto;
-    margin-top: 2em;
+    text-align: left;
+    margin: 2em auto;
+    width: 60%;
+    margin-bottom: .5em;
     
 }
 
@@ -78,10 +79,10 @@ li a:hover {
     font-size: 1em;
     letter-spacing: .2em;
     line-height: 1.5em;
-    text-align: center;
-    margin: 2em auto;
+    text-align: left;
+    margin: 1em auto;
     width: 60%;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
 }
 
 .experience {
@@ -103,11 +104,20 @@ li a:hover {
 }
 
 .set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: .2em;
     width: 50%;
 }
 
-ol {
-    list-style: none;
+.set p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #606060;
+    font-weight: initial;
+    font-size: 15px;
+    margin-bottom: .75em;
+    margin-right: 1.25em;
 }
 
 .education {
@@ -132,9 +142,9 @@ h3 {
 h4 {
     font-family: 'Roboto', Helvetica, sans-serif;
     color: #606060;
-    font-weight: lighter;
-    font-size: 16px;
-    margin-bottom: .5em;
+    font-weight: initial;
+    font-size: 17px;
+    margin-bottom: .75em;
 }
 
 h5 {
