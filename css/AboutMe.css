@@ -1,17 +1,5 @@
-body {
-    background: #f8f8f8;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    margin: 0;
-}
-
 /* header */
 
-.main-header {
-    display: flex;
-    background: #e7e7e7;
-    width: 100%;
-    padding: 1em;
-}
 
 h1 {
     display: flex;
@@ -22,7 +10,7 @@ h1 {
     color: #606060;
     font-weight: lighter;
     width: 100%;
-    margin-left: 1em;
+    margin-left: 3em;
     font-size: 1.5em;
 
 }
@@ -36,12 +24,20 @@ ul {
     padding: 0;
     list-style: none;
     width: 100%;
+    background: #e7e7e7;
 }
 
-li {
+li a {
+    color: #606060;
+    font-weight: bolder;
+    font-size: 1em;
+    letter-spacing: .25em;
+    display: inline-block;
+    white-space: nowrap;
     margin-right: 5em;
-    font-weight: 900;
+    padding: 1.5em;
 }
+
 
 a:link {
     text-decoration: none;
@@ -49,27 +45,130 @@ a:link {
 
 
 @keyframes example {
-    from {color: #71cbd3;}
-    to {color: #606060;}
+    from {background-color: #e7e7e7;}
+    to {background-color: #f8f8f8;}
 }
 
-.nav:hover {
-    width: 100px;
-    height: 100px;
+li a:hover {
     animation-name: example;
     animation-duration: 4s;
+    background-color: #f8f8f8;
+    color: #71cbd3;
 }
 
 
 
-.main-nav li a {
+/* body */
+
+#hello {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #71cbd3;
+    letter-spacing: .25em;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+    
+}
+
+#mission {
+    font-family: 'Roboto', Helvetica, sans-serif;
     color: #606060;
     font-weight: lighter;
     font-size: 1em;
-    letter-spacing: .25em;
+    letter-spacing: .2em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 2em auto;
+    width: 60%;
+    margin-bottom: 4em;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: .2em;
+}
+
+.job {
+    width: 50%;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: .2em;
+}
+
+.set {
+    width: 50%;
+}
+
+ol {
+    list-style: none;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: .2em;
+}
+
+.school {
+    width: 50%;
 }
 
 
+h3 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #71cbd3;
+    font-size: 20px;
+    margin-right: 3em;
+}
+
+h4 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #606060;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: .5em;
+}
+
+h5 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #606060;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.jobdes {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #606060;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 3em;
+}
+
+.affiliations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: .2em;
+}
+
+.groups {
+    width: 50%;
+}
+
+
+body {
+    background: #f8f8f8;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    margin: 0;
+}
 
 
 
@@ -78,6 +177,7 @@ a:link {
 .main-footer {
     background: rgba(113, 203, 211, .5);
     color: #606060;
+
     padding: 2em;
     margin: 0;
     text-align: center;

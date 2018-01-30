@@ -7,25 +7,132 @@
             <title>Kelsey Pintens</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="css/AboutMe.css">
+            <script type="text/javascript" src="js/main.js"></script>
     </head>
 
     <body>
         <div class="wrap">
-            <header class="main-header">
-                <h1 class="name">Kelsey Pintens</h1>
+            <header>
                 <ul class="main-nav">
-                    <li><a class= "nav" href="Work.html">WORK</a></li>
-                    <li><a class= "nav" href="AboutMe.html">ABOUT ME</a></li>
-                    <li><a class= "nav" href="Blog">BLOG</a></li>
+                    <h1><a class="name" href="index.html">Kelsey Pintens</a></h1>
+                    <li><a class= "nav" id="work" onclick="myFunction()" href="Work.html">WORK</a></li>
+                    <li><a class= "nav" id="about-me" onclick="myFunction()" href="AboutMe.html">ABOUT ME</a></li>
+                    <li><a class= "nav" id="blog" onclick="myFunction()" href="Blog">BLOG</a></li>
                 </ul>
             </header>
 
-            <h1>Hello World</h1>
+            <h2 id="hello">Hello.</h2>
+
+            <p id="mission">    Hey there!
+                My name is Kelsey Pintens and I am so exicted to meet you.  I am a designer, maker, creator.  I have a passion for creating experiences that help imporove every day life...
+                Chocolate tootsie roll jelly-o danish candy sweet roll marzipan. Cake croissant candy canes ice cream icing. Sweet gingerbread jujubes lollipop cheesecake. Donut apple pie sugar plum. Dessert candy fruitcake jujubes cheesecake cheesecake. Lemon drops dessert fruitcake. Cookie marshmallow soufflé jelly beans fruitcake. Gummi bears gummi bears powder lemon drops halvah sweet roll macaroon donut. Caramels wafer tiramisu 
+            </p>
+
+            <div class="experience">
+                <div>
+                    <h3>EXPERIENCE</h3>
+                </div>
+
+                <div class="job">
+                    <article> <!-- Job Experience -->
+                        <header>
+                            <h4>Christina Kober Designs</h4>
+                            <h5>Graphic Designer | July 2017 - Present</h5>
+                        </header>
+                        <section>
+                            <p class="jobdes">Works closely with marketing designing advertisement material - e-mails, handouts, blog.  (Photoshop and Mailchimp) </p>
+                        </section>
+                    </article>
+                    <article>
+                        <header>
+                            <h4>TIKI Brand</h4>
+                            <h5>Industrial Design Freelancer | May 2016 | June 2017</h5>
+                        </header>
+                        <section>
+                            <p class="jobdes">Designed and ideated new ideas for table top tiki torches, modern tiki torches and table top/freestanding tiki torches.  Product concepts now on market.  (Trend Research, Sketchbook Pro, InDesign) </p>
+                        </section>
+                    </article>
+                    <article>
+                        <header>
+                            <h4>Regalo International</h4>
+                            <h5>Junior Industrial Designer | July 2016 - October 2016</h5>
+                        </header>
+                        <section>
+                            <p class="jobdes">Designed juvenile products including baby gates and ideating new ideas.  Traveled to China gaining first hand manufacturing experience.  (Adobe Suites, Solidworks, Engineering Mechanisms, SketchBook Pro, Prototyping) 
+                            </p>
+                        </section>
+                    </article> 
+                </div>
+            </div><!-- Job Experience -->
+
+            <div class="skill"> <!--Skills-->
+                <div>
+                    <h3>SKILLS</h3>
+                </div> 
+                <div class="set">
+                    <ol>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe XD</li>
+                        <li>Sketchbook Pro</li>
+                        <li>GitHub</li>
+                        <li>Solidworks</li>
+                        <li>Keyshot</li>
+                        <li>Microsoft Office</li>
+                        <li>Html, CSS, JavaScript</li>
+                        <li>Design Thinking</li>
+                        <li>Prototyping</li>
+                        <li>Slipcasting</li>
+                    </ol>
+                </div>   
+            </div> <!--Skills-->
 
 
-            <article> <!-- Contact Information -->
+            <div class="education">
+                <div>
+                    <h3>EDUCATION</h3>
+                </div>
+
+                <div class="school">
+
+                <h4>Front-End Web Designer/Developer Bootcamp</h4>
+                    <section>
+                        <p>Nashville Software School</p>
+                        <p>January 2018 - June 2018</p>
+                    </section>
+                <h4>BFA Industrial Design</h4>
+                    <section>
+                        <p>University of Wisconsin - Stout</p>
+                        <p>September 2012 - August 2016</p>
+                        <p>Cum Laude</p>
+                    </section>
+                </div>
+            </div> <!--Education-->
+            
+            <div class="affiliations"> <!--Organizations-->
+                <div>
+                    <h3>AFFILIATIONS &amp; AWARDS</h3>
+                </div>
+                <div class="groups">
+                
+                <h4>IDSA</h4>
+                    <h5>Merit Award Nominee | 2016</h5>
+                    <h5>National Member | 2013 - 2015</h5>
+                    <h5>UW-Stout Member | 2012 - 2016</h5>
+                    
+                <h4>SHiFT Design Camp</h4>
+                    <h5>Camp Participant | 2015</h5>
+                </div>
+                
+
+            </div> <!--Organizations-->
+
+
+
+             <!-- <article> 
                 <header>
-                    <h3>Call me, Beep me, If you wwant to reach me</h3>
+                    <h4>Call me, Beep me, If you wwant to reach me</h4>
                 </header>
 
                 <section>
@@ -48,89 +155,7 @@
                     <img src="" alt="">
                     <p></p>
                 </section>
-            </article> <!-- Contact Information -->
-
-
-            <article> <!-- Job Experience -->
-                <header>
-                    <h3>Christina Kober Designs</h3>
-                    <h4>Graphic Designer | July 2017 - Present</h4>
-                </header>
-                <section>
-                    <p>Works closely with marketing designing advertisement material - e-mails, handouts, blog.  (Photoshop and Mailchimp) </p>
-                </section>
-            </article>
-            <article>
-                <header>
-                    <h3>TIKI Brand</h3>
-                    <h4>Industrial Design Freelancer | May 2016 | June 2017</h4>
-                </header>
-                <section>
-                    <p>Designed and ideated new ideas for table top tiki torches, modern tiki torches and table top/freestanding tiki torches.  (Trend Research, Sketchbook Pro, InDesign) </p>
-                </section>
-            </article>
-            <article>
-                <header>
-                    <h3>Regalo International</h3>
-                    <h4>Junior Industrial Designer | July 2016 - October 2016</h4>
-                </header>
-                <section>
-                    <p>Designed juvenile products including baby gates and ideating new ideas.  Traveled to China gaining first hand manufacturing experience.  (Adobe Suites, Solidworks, Engineering Mechanisms, SketchBook Pro, Prototyping) 
-                    </p>
-                </section>
-            </article> <!-- Job Experience -->
-
-            <article> <!--Skills-->
-                <header>
-                    <h3>Skills</h3>
-                </header>
-                    <section>
-                        <ol>
-                            <li>Adobe InDesign</li>
-                            <li>Adobe Photoshop</li>
-                            <li>Adobe Illustrator</li>
-                            <li>Sketchbook Pro</li>
-                            <li>GitHub</li>
-                            <li>Solidworks</li>
-                            <li>Keyshot</li>
-                            <li>Microsoft Word</li>
-                            <li>Microsoft Excel</li>
-                            <li>Html, CSS, JavaScript</li>
-                            <li>Design Thinking</li>
-                            <li>Prototyping</li>
-                            <li>Slipcasting</li>
-                        </ol>
-                    </section>
-            </article> <!--Skills-->
- 
-            <article> <!--Education-->
-
-                <h3>Front-End Web Designer/Developer Bootcamp</h3>
-                    <section>
-                        <p>Nashville Software School</p>
-                        <p>January 2018 - June 2018</p>
-                    </section>
-                <h3>BFA Industrial Design</h3>
-                    <section>
-                        <p>University of Wisconsin - Stout</p>
-                        <p>September 2012 - August 2016</p>
-                        <p>Cum Laude</p>
-                    </section>
-
-            </article> <!--Education-->
-            
-            <article> <!--Organizations-->
-
-                
-                <h3>IDSA</h3>
-                    <h4>Merit Award Nominee | 2016</h4>
-                    <h4>National Member | 2013 - 2015</h4>
-                    <h4>UW-Stout Member | 2012 - 2016</h4>
-                <h3>SHiFT Design Camp</h3>
-                    <h4>Camp Participant | 2015</h4>
-                
-
-            </article> <!--Organizations-->
+            </article> -->
 
 
         </div>
