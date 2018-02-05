@@ -1,46 +1,44 @@
 /* header */
+.wrap {
+    margin: 3em 6em;
+}
 
-h1 {
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+}
+
+.name {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    margin: 0;
     color: #606060;
-    font-weight: lighter;
-    width: 100%;
-    margin-left: 1em;
+    font-weight: Bolder;
     font-size: 1.5em;
     letter-spacing: .1em;
+    width: 100%;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-h1 a {
+.name a {
     text-decoration: none;
     color: #606060;
 }
 
-ul {
+
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    background: #e7e7e7;
-}
-
-li a {
+    text-decoration: none;
     color: #606060;
-    font-weight: bolder;
-    font-size: 1em;
+    font-weight: initial;
+    font-size: .75em;
     letter-spacing: .25em;
-    display: inline-block;
-    white-space: nowrap;
-    margin-right: 5em;
-    padding: 1.5em;
+    width: 100%;
+    padding: 2em;
 }
 
 
@@ -48,45 +46,69 @@ a:link {
     text-decoration: none;
 }
 
-
 @keyframes example {
     from {background-color: #e7e7e7;}
     to {background-color: #f8f8f8;}
 }
 
-li a:hover {
+.nav a:hover {
     animation-name: example;
     animation-duration: 4s;
     background-color: #f8f8f8;
     color: #71cbd3;
 }
 
+img {
+    width: 1.25in;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/* .separator {
+    width: 100%;
+    height: 4px;
+    line-height: 0px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+span {
+    height: 1px;
+    width: 95%;
+    background: #000000;
+    display: inline-block;
+    opacity: 0.15;
+} */
+    
 
 /* body */
 
 .creative {
     color: #71cbd3;
-    font-size: 35px;
+    font-size: 50px;
     letter-spacing: .25em;
-    text-align: center;
-    margin-top: 6em;
+    line-height: .1em;
+    margin-top: 2em;
     margin-bottom: 0;
-    
+    margin-left: 0;
 }
 
 .designer {
     color: #606060;
     font-weight: lighter;
-    font-size: 1.5em;
+    font-size: 1em;
     letter-spacing: .2em;
-    text-align: center;
     margin-top: 3em;
     margin-bottom: 0;
+
 }
 
 
 body {
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
     font-family: 'Roboto', Helvetica, sans-serif;
     margin: 0;
 }
@@ -95,7 +117,7 @@ body {
 
 /* footer*/
 
-.main-footer {
+/* .main-footer {
     background: rgba(113, 203, 211, .5);
     color: #606060;
 
@@ -106,4 +128,4 @@ body {
 
 .wrap {
     min-height: calc(100vh - 114.73px); 
-}
+} */
