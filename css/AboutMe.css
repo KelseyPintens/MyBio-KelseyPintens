@@ -29,12 +29,11 @@ ul {
     padding: 0;
     list-style: none;
     width: 100%;
-    background: #e7e7e7;
 }
 
 li a {
     color: #606060;
-    font-weight: bolder;
+    font-weight: initial;
     font-size: 1em;
     letter-spacing: .25em;
     display: inline-block;
@@ -60,6 +59,8 @@ li a:hover {
     background-color: #f8f8f8;
     color: #71cbd3;
 }
+
+
 
 
 

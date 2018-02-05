@@ -29,12 +29,11 @@ ul {
     padding: 0;
     list-style: none;
     width: 100%;
-    background: #e7e7e7;
 }
 
 li a {
     color: #606060;
-    font-weight: bolder;
+    font-weight: initial;
     font-size: 1em;
     letter-spacing: .25em;
     display: inline-block;
@@ -64,9 +63,18 @@ li a:hover {
 
 /* body */
 
-.image {
-    width: 4in;
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.image {
+    height: 2in;
+    padding: 3em 1em;
+}
+
 
 body {
     background: #f8f8f8;
