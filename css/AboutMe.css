@@ -1,45 +1,40 @@
 /* header */
+.wrap {
+    margin: 4em 6em;
+}
 
-h1 {
+.main-nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
+    justify-content: space-between;
+}
+
+.name {
     color: #606060;
-    font-weight: lighter;
-    width: 100%;
-    margin-left: 1em;
+    font-weight: Bolder;
     font-size: 1.5em;
     letter-spacing: .1em;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-h1 a {
-    text-decoration: none;
-    color: #606060;
-}
-
-ul {
+.pages {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
 }
 
-li a {
+.nav {
     color: #606060;
     font-weight: initial;
-    font-size: 1em;
+    font-size: .75em;
     letter-spacing: .25em;
-    display: inline-block;
-    white-space: nowrap;
+}
+
+#work {
     margin-right: 5em;
-    padding: 1.5em;
+}
+
+#about-me {
+    margin-right: 5em;
 }
 
 
@@ -47,22 +42,10 @@ a:link {
     text-decoration: none;
 }
 
-
-@keyframes example {
-    from {background-color: #e7e7e7;}
-    to {background-color: #f8f8f8;}
-}
-
-li a:hover {
-    animation-name: example;
-    animation-duration: 4s;
-    background-color: #f8f8f8;
+a:hover {
     color: #71cbd3;
+    font-weight: bolder;
 }
-
-
-
-
 
 /* body */
 
@@ -181,7 +164,6 @@ h5 {
 
 
 body {
-    background: #f8f8f8;
     font-family: 'Roboto', Helvetica, sans-serif;
     margin: 0;
 }

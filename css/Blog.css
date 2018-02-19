@@ -1,0 +1,48 @@
+/* header */
+.wrap {
+    margin: 4em 6em;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    color: #606060;
+    font-weight: Bolder;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    color: #606060;
+    font-weight: initial;
+    font-size: .75em;
+    letter-spacing: .25em;
+}
+
+#work {
+    margin-right: 5em;
+}
+
+#about-me {
+    margin-right: 5em;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #71cbd3;
+    font-weight: bolder;
+}
