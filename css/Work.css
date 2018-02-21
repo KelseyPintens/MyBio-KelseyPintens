@@ -48,49 +48,81 @@ a:hover {
 
 /* body */
 
-.projects {
-    background-color: #f6f6f6;
+#mission {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #606060;
+    margin-top: 125px;
 }
 
+
 #oasis {
+    margin-top: 75px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 2em 6em;
+    justify-content: center;
 }
 
 #mella {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 2em 6em;
+    justify-content: center;
 }
 
 #maple-syrup {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 2em 6em;
+    justify-content: center;
+}
+
+.description {
+    margin-top: 45px;
+    margin-left: 25px;
+    width: 3in;
+}
+
+.product {
+    font-size: 25px;
+    color: #71cbd3;
+    font-weight: lighter;
+}
+
+.product-description {
+    font-size: 15px;
+    color: #606060;
+    margin-top: 10px;
+}
+
+.detail {
+    font-size: 15px;
+    color: #606060;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.vp {
+    display: flex;
+    flex-direction: row;
+}
+
+.view {
+    font-size: 15px;
+    color: #71cbd3;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.view-arrow {
+    transform: rotate(-90deg);
+    width: 12px;
+    margin-top: 13px;
 }
 
 .image {
     height: 3.5in;
     margin-top: 3em;
     margin-bottom: 3em;
-    z-index: 1; 
-    position: relative;
-}
-
-.description {
-    justify-content: flex-end;
-    background-color: #ffffff;
-    margin-top: 7.5em;
-    margin-left: 4.25in;
-    height: 2in;
-    width: 5.5in;
-    z-index: 2; 
-    position: absolute; 
-    opacity: .75;   
 }
 
 
